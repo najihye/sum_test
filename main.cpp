@@ -2,8 +2,9 @@
 #include "sum.h"
 
 int main(){
-	int i = sum(100);
-	printf("%d\n",i);
+	int a,b;
+	int sum=0;
+	printf("%d\n",sum);
 	return 0;
 }
 
