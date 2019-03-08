@@ -1,5 +1,6 @@
 #pragma once
 
 
-int sum(int n);
+int power(int x,int y);
+
 

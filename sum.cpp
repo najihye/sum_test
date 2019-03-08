@@ -1,12 +1,19 @@
 #include "sum.h"
 
 
-	int sum(int n){
-	int res=0;
-	int i;
-	for(i=0;i <= n; i++){
-	res += i;
+	int power(int x,int y){
+
+	int sum1=0;
+
+	do{
+	sum1 = sum1 + x;
+	x++;
+	}while(x!=y);
+
+	sum1 = sum1 + y;
+	return sum1;
+	
 }
-	return res;
-}
+
+
 
